@@ -1,0 +1,11 @@
+Keep Getting this Error in your iPython?
+
+ImproperlyConfigured: Requested setting DEFAULT_INDEX_TABLESPACE, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+No problemo!!Easy Peasy
+You just need to import django's settings,(ipython is in python not django) then configure the settings,cd to the scripts' foolder,then type in the following commands;
+
+- from django.conf import settings
+- settings.configure()
+
+
